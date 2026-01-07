@@ -105,3 +105,16 @@
 .status-orange {
 	background-color: var(--sf-indicator-orange);
 }
+
+.live-bg::after {
+	content: '';
+	width: 70px;
+	height: 40px;
+	background-color: #000;
+	opacity: 0.8;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 99;
+	border-bottom-left-radius: 25px;
+}
